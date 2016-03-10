@@ -1,0 +1,9 @@
+name: 'Blacksmith'
+
+skills:
+  - salvage_blow
+  - lancebreaker
+
+weapons:
+  - axe
+  - sword

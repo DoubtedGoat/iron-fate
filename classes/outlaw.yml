@@ -1,0 +1,12 @@
+name: 'Outlaw'
+
+promotions:
+  - adventurer
+  - bow_knight
+
+skills:
+  - locktouch
+  - movement_plus_one
+
+weapons:
+  - bow

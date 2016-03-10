@@ -1,0 +1,12 @@
+name: 'Sky Knight'
+
+promotions:
+  - falcon_knight
+  - kinshi_knight
+
+skills:
+  - darting_blow
+  - camaraderie
+
+weapons:
+  - lance

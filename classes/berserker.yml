@@ -1,0 +1,8 @@
+name: 'Berserker'
+
+skills:
+  - rally_strength
+  - axefaire
+
+weapons:
+  - axe

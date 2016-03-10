@@ -1,0 +1,9 @@
+name: 'Wyvern Lord'
+
+skills:
+  - rally_defense
+  - swordbreaker
+
+weapons:
+  - lance
+  - axe

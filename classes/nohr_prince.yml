@@ -1,0 +1,13 @@
+name: 'Nohr Prince / Princess'
+
+promotions:
+  - hoshido_noble
+  - nohr_noble
+
+skills:
+  - nobility
+  - dragon_fang
+
+weapons:
+  - sword
+  - dragonstone

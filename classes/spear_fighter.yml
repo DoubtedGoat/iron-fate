@@ -1,0 +1,12 @@
+name: 'Spear Fighter'
+
+promotions:
+  - spear_master
+  - basara
+
+skills:
+  - seal_defense
+  - swap
+
+weapons:
+  - lance

@@ -1,0 +1,12 @@
+name: 'Troubadour (Female)'
+
+promotions:
+  - strategist
+  - maid
+
+skills:
+  - resistance_plus_two
+  - demoiselle
+
+weapons:
+  - staff

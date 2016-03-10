@@ -1,0 +1,13 @@
+name: 'Cavalier'
+
+promotions:
+  - paladin
+  - great_knight
+
+skills:
+  - elbow_room
+  - shelter
+
+weapons:
+  - sword
+  - lance

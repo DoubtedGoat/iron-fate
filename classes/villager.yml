@@ -1,0 +1,12 @@
+name: 'Villager'
+
+promotions:
+  - master_of_arms
+  - merchant
+
+skills:
+  - aptitude
+  - underdog
+
+weapons:
+  - lance

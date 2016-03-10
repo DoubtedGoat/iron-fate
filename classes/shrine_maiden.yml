@@ -1,0 +1,12 @@
+name: 'Shrine Maiden'
+
+promotions:
+  - priestess
+  - onmyoji
+
+skills:
+  - miracle
+  - rally_luck
+
+weapons:
+  - staff

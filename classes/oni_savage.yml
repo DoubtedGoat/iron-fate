@@ -1,0 +1,12 @@
+name: 'Oni Savage'
+
+promotions:
+  - oni_chieftain
+  - blacksmith
+
+skills:
+  - seal_resistance
+  - shove
+
+weapons:
+  - axe

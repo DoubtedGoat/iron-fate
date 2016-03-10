@@ -1,0 +1,12 @@
+name: 'Diviner'
+
+promotions:
+  - basara
+  - onmyoji
+
+skills:
+  - magic_plus_two
+  - future_sight
+
+weapons:
+  - tome

@@ -1,0 +1,12 @@
+name: 'Fighter'
+
+promotions:
+  - berserker
+  - hero
+
+skills:
+  - hp_plus_five
+  - gamble
+
+weapons:
+  - axe

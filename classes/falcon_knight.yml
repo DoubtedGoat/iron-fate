@@ -1,0 +1,9 @@
+name: 'Falcon Knight'
+
+skills:
+  - rally_speed
+  - warding_blow
+
+weapons:
+  - lance
+  - staff

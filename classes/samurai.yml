@@ -1,0 +1,12 @@
+name: 'Samurai'
+
+promotions:
+  - swordmaster
+  - master_of_arms
+
+skills:
+  - duelists_blow
+  - vantage
+
+weapons:
+  - sword

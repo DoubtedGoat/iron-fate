@@ -1,0 +1,12 @@
+name: 'Knight'
+
+promotions:
+  - general
+  - great_knight
+
+skills:
+  - defense_plus_two
+  - natural_cover
+
+weapons:
+  - lance

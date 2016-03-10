@@ -1,0 +1,12 @@
+name: 'Mercenary'
+
+promotions:
+  - hero
+  - bow_knight
+
+skills:
+  - good_fortune
+  - strong_riposte
+
+weapons:
+  - sword

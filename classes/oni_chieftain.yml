@@ -1,0 +1,9 @@
+name: 'Oni Chieftain'
+
+skills:
+  - death_blow
+  - counter
+
+weapons:
+  - axe
+  - tome

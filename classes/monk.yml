@@ -1,0 +1,12 @@
+name: 'Monk'
+
+promotions:
+  - great_master
+  - onmyoji
+
+skills:
+  - miracle
+  - rally_luck
+
+weapons:
+  - staff

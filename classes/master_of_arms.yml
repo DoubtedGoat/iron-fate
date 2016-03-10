@@ -1,0 +1,10 @@
+name: 'Master Of Arms'
+
+skills:
+  - seal_strength
+  - life_and_death
+
+weapons:
+  - lance
+  - sword
+  - axe

@@ -1,0 +1,12 @@
+name: 'Dark Mage'
+
+promotions:
+  - sorceror
+  - dark_knight
+
+skills:
+  - heartseeker
+  - malefic_aura
+
+weapons:
+  - tome

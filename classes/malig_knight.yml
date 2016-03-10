@@ -1,0 +1,9 @@
+name: 'Malig Knight'
+
+skills:
+  - savage_blow
+  - trample
+
+weapons:
+  - axe
+  - tome

@@ -1,0 +1,12 @@
+name: 'Ninja'
+
+promotions:
+  - master_ninja
+  - mechanist
+
+skills:
+  - locktouch
+  - poison_strike
+
+weapons:
+  - shuriken

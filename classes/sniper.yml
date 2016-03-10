@@ -1,0 +1,8 @@
+name: 'Sniper'
+
+skills:
+  - certain_blow
+  - bowfaire
+
+weapons:
+  - bow

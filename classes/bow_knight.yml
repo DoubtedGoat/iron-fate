@@ -1,0 +1,9 @@
+name: 'Bow Knight'
+
+skills:
+  - rally_skill
+  - shurikenbreaker
+
+weapons:
+  - sword
+  - bow

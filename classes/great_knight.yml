@@ -1,0 +1,10 @@
+name: 'Great Knight'
+
+skills:
+  - luna
+  - armored_blow
+
+weapons:
+  - sword
+  - lance
+  - axe

@@ -1,0 +1,12 @@
+name: 'Wyvern Rider'
+
+promotions:
+  - wyvern_lord
+  - malig_knight
+
+skills:
+  - strength_plus_two
+  - lunge
+
+weapons:
+  - axe

@@ -1,0 +1,12 @@
+name: 'Archer'
+
+promotions:
+  - sniper
+  - kinshi_knight
+
+skills:
+  - skill_plus_two
+  - quick_draw
+
+weapons:
+  - bow

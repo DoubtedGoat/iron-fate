@@ -1,0 +1,12 @@
+name: 'Apothecary'
+
+promotions:
+  - merchant
+  - mechanist
+
+skills:
+  - potent_potion
+  - quick_salve
+
+weapons:
+  - bow

@@ -1,0 +1,9 @@
+name: 'Adventurer'
+
+skills:
+  - lucky_seven
+  - pass
+
+weapons:
+  - bow
+  - staff

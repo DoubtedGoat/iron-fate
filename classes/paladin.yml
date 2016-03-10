@@ -1,0 +1,9 @@
+name: 'Paladin'
+
+skills:
+  - defender
+  - aegis
+
+weapons:
+  - sword
+  - lance

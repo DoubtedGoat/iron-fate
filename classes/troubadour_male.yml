@@ -1,0 +1,12 @@
+name: 'Troubadour (Male)'
+
+promotions:
+  - strategist
+  - butler
+
+skills:
+  - resistance_plus_two
+  - gentilhomme
+
+weapons:
+  - staff
