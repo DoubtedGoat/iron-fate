@@ -1,0 +1,15 @@
+name: 'Reina'
+
+faction: hoshido
+
+base_class: sky_knight
+prepromote: kinshi_knight
+
+heart_class: diviner
+alt_heart_class: ninja
+
+skill: morbid_celebration
+
+partner_sets: {
+  avatar_male: avatar_secondary
+}

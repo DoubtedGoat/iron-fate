@@ -1,0 +1,30 @@
+name: 'Takumi'
+
+faction: hoshido
+
+base_class: archer
+heart_class: spear_fighter
+
+skill: competitive
+
+friendship_sets: {
+  jakob: troubadour_male
+  ryoma: samurai
+  hinata: samurai
+  leo: dark_mage
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary
+  azura: sky_knight
+  felicia: troubadour_male
+  mozu: apothecary
+  hana: samurai
+  orochi: diviner
+  rinkah: oni_savage
+  kagero: ninja
+  setsuna: ninja
+  oboro: none
+  camilla: wyvern_rider
+  elise: troubadour_male
+}

@@ -1,0 +1,32 @@
+name: 'Orochi'
+
+faction: hoshido
+
+base_class: diviner
+heart_class: apothecary
+
+skill: capture
+
+friendship_sets: {
+  rinkah: oni_savage
+  kagero: ninja
+  oboro: spear_fighter
+  nyx: dark_mage
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary
+  jakob: troubadour_female
+  silas: cavalier
+  kaze: ninja
+  ryoma: samurai
+  hinata: samurai
+  takumi: archer
+  subaki: sky_knight
+  saizo: ninja
+  azama: shrine_maiden
+  hayato: oni_savage
+  kaden: none
+  odin: dark_mage
+  laslow: mercenary
+}

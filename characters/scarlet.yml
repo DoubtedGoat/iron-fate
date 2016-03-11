@@ -1,0 +1,15 @@
+name: 'Scarlet'
+
+faction: hoshido
+
+base_class: wyvern_rider
+prepromote: wyvern_lord
+
+heart_class: outlaw
+alt_heart_class: knight
+
+skill: in_extremis
+
+partner_sets: {
+  avatar_male: avatar_secondary
+}

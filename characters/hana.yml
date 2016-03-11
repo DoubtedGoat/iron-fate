@@ -1,0 +1,32 @@
+name: 'Hana'
+
+faction: hoshido
+
+base_class: samurai
+heart_class: shrine_maiden
+
+skill: fearsome_blow
+
+friendship_sets: {
+  felicia: troubadour_female
+  sakura: none
+  setsuna: archer
+  effie: knight
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary
+  jakob: troubadour_female
+  silas: cavalier
+  kaze: ninja
+  ryoma: sky_knight
+  subaki: sky_knight
+  takumi: archer
+  saizo: ninja
+  hinata: oni_savage
+  hayato: diviner
+  kaden: diviner
+  azama: none
+  laslow: mercenary
+  keaton: fighter
+}

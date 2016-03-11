@@ -1,0 +1,30 @@
+name: 'Hinoka'
+
+faction: hoshido
+
+base_class: sky_knight
+heart_class: spear_fighter
+
+skill: rallying_cry
+
+friendship_sets: {
+  azura: troubadour_female
+  sakura: shrine_maiden
+  setsuna: archer
+  camilla: wyvern_rider
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary
+  jakob: troubadour
+  silas: cavalier
+  kaze: ninja
+  subaki: samurai
+  hinata: samurai
+  saizo: ninja
+  hayato: diviner
+  kaden: diviner
+  azama: shrine_maiden
+  xander: cavalier
+  leo: dark_mage
+}

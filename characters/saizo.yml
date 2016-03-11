@@ -1,0 +1,32 @@
+name: 'Saizo'
+
+faction: hoshido
+
+base_class: ninja
+heart_class: samurai
+
+skill: pyrotechnics
+
+friendship_sets: {
+  kaze: none
+  subaki: sky_knight
+  ryoma: none
+  laslow: mercenary
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary
+  azura: sky_knight
+  felicia: troubadour
+  mozu: archer
+  hinoka: sky_knight
+  sakura: monk
+  orochi: diviner
+  kagero: diviner
+  rinkah: oni_savage
+  oboro: spear_fighter
+  setsuna: archer
+  hana: none
+  charlotte: fighter
+  beruka: wyvern_rider
+}

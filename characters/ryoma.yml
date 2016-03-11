@@ -1,0 +1,31 @@
+name: 'Ryoma'
+
+faction: hoshido
+
+base_class: samurai
+prepromote: swordmaster
+heart_class: sky_knight
+
+skill: bushido
+
+friendship_sets: {
+  silas: cavalier
+  takumi: archer
+  saizo: ninja
+  xander: cavalier
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary
+  azura: none
+  felicia: troubadour_male
+  mozu: archer
+  hana: monk
+  orochi: diviner
+  rinkah: oni_savage
+  kagero: ninja
+  oboro: spear_fighter
+  setsuna: archer
+  camilla: wyvern_rider
+  elise: troubadour_male
+}

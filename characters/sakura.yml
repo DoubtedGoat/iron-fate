@@ -1,0 +1,30 @@
+name: 'Sakura'
+
+faction: hoshido
+
+base_class: shrine_maiden
+heart_class: sky_knight
+
+skill: quiet_strength
+
+friendship_sets: {
+  azura: none
+  hana: samurai
+  hinoka: none
+  elise: troubadour_female
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary
+  jakob: troubadour
+  silas: cavalier
+  kaze: ninja
+  saizo: ninja
+  hinata: samurai
+  hayato: diviner
+  kaden: diviner
+  azama: apothecary
+  subaki: none
+  xander: cavalier
+  leo: dark_mage
+}

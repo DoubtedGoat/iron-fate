@@ -1,0 +1,32 @@
+name: 'Hayato'
+
+faction: hoshido
+
+base_class: diviner
+heart_class: oni_savage
+
+skill: pride
+
+friendship_sets: {
+  azama: monk
+  kaden: apothecary
+  benny: knight
+  fuga: samurai
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary
+  azura: sky_knight
+  felicia: troubadour_male
+  mozu: archer
+  hinoka: sky_knight
+  sakura: monk
+  hana: samurai
+  orochi: apothecary
+  kagero: ninja
+  oboro: spear_fighter
+  setsuna: archer
+  rinkah: none
+  effie: knight
+  nyx: dark_mage
+}

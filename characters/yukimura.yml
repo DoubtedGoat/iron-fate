@@ -1,0 +1,15 @@
+name: 'Yukimura'
+
+faction: hoshido
+
+base_class: apothecary
+prepromote: mechanist
+
+heart_class: samurai
+alt_heart_class: monk
+
+skill: perspicacious
+
+partner_sets: {
+  avatar_female: avatar_secondary
+}

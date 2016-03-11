@@ -1,0 +1,32 @@
+name: 'Setsuna'
+
+faction: hoshido
+
+base_class: archer
+heart_class: ninja
+
+skill: optimistic
+
+friendship_sets: {
+  hinoka: sky_knight
+  hana: samurai
+  kagero: none
+  selena: mercenary
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary
+  jakob: troubadour_female
+  silas: cavalier
+  kaze: none
+  ryoma: samurai
+  hinata: samurai
+  takumi: spear_fighter
+  subaki: sky_knight
+  azama: shrine_maiden
+  hayato: diviner
+  kaden: diviner
+  saizo: none
+  arthur: fighter
+  niles: outlaw
+}
