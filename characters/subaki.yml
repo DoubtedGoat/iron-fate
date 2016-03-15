@@ -8,25 +8,25 @@ heart_class: samurai
 skill: perfectionist
 
 friendship_sets: {
-  hinata: none
-  saizo: ninja
-  azama: monk
+  hinata: none,
+  saizo: ninja,
+  azama: monk,
   niles: outlaw
 }
 
 partner_sets: {
-  avatar_female: avatar_secondary
-  azura: troubadour_male
-  felicia: troubadour_male
-  mozu: archer
-  hinoka: spear_fighter
-  oboro: spear_fighter
-  sakura: monk
-  hana: none
-  orochi: diviner
-  rinkah: oni_savage
-  kagero: ninja
-  setsuna: archer
-  nyx: dark_mage
+  avatar_female: avatar_secondary,
+  azura: troubadour_male,
+  felicia: troubadour_male,
+  mozu: archer,
+  hinoka: spear_fighter,
+  oboro: spear_fighter,
+  sakura: monk,
+  hana: none,
+  orochi: diviner,
+  rinkah: oni_savage,
+  kagero: ninja,
+  setsuna: archer,
+  nyx: dark_mage,
   selena: mercenary
 }

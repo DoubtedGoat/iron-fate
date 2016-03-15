@@ -1,0 +1,32 @@
+name: 'Arthur'
+
+faction: nohr
+
+base_class: fighter
+heart_class: cavalier
+
+skill: misfortunate
+
+friendship_sets: {
+  benny: knight,
+  niles: outlaw,
+  keaton: outlaw,
+  azama: monk
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour_male,
+  mozu: archer,
+  camilla: wyvern_rider,
+  beruka: wyvern_rider,
+  elise: troubadour_male,
+  charlotte: troubadour_male,
+  effie: knight,
+  nyx: dark_mage,
+  peri: none,
+  selena: mercenary,
+  kagero: ninja,
+  setsuna: archer
+}

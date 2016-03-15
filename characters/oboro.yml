@@ -8,25 +8,25 @@ heart_class: apothecary
 skill: nohr_enmity
 
 friendship_sets: {
-  mozu: archer
-  rinkah: oni_savage
-  orochi: diviner
+  mozu: archer,
+  rinkah: oni_savage,
+  orochi: diviner,
   beruka: wyvern_rider
 }
 
 partner_sets: {
-  avatar_male: avatar_secondary
-  jakob: troubadour_female
-  silas: cavalier
-  kaze: ninja
-  ryoma: samurai
-  hinata: samurai
-  takumi: archer
-  subaki: sky_knight
-  saizo: ninja
-  azama: shrine_maiden
-  hayato: diviner
-  kaden: diviner
-  benny: knight
+  avatar_male: avatar_secondary,
+  jakob: troubadour_female,
+  silas: cavalier,
+  kaze: ninja,
+  ryoma: samurai,
+  hinata: samurai,
+  takumi: archer,
+  subaki: sky_knight,
+  saizo: ninja,
+  azama: shrine_maiden,
+  hayato: diviner,
+  kaden: diviner,
+  benny: knight,
   niles: outlaw
 }

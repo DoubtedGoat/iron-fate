@@ -1,0 +1,31 @@
+name: 'Leo'
+
+faction: nohr
+
+base_class: dark_mage
+prepromote: dark_knight
+heart_class: troubadour_male
+
+skill: pragmatic
+
+friendship_sets: {
+  xander: cavalier,
+  odin: samurai,
+  niles: outlaw,
+  takumi: archer
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: none,
+  mozu: archer,
+  effie: knight,
+  nyx: outlaw,
+  charlotte: fighter,
+  beruka: wyvern_rider,
+  selena: mercenary,
+  peri: cavalier,
+  hinoka: sky_knight,
+  sakura: monk
+}

@@ -1,0 +1,32 @@
+name: 'Nyx'
+
+faction: nohr
+
+base_class: dark_mage
+heart_class: outlaw
+
+skill: countercurse
+
+friendship_sets: {
+  mozu: archer,
+  effie: knight,
+  charlotte: fighter,
+  orochi: diviner
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  jakob: troubadour_female,
+  silas: cavalier,
+  kaze: ninja,
+  xander: cavalier,
+  leo: troubadour_female,
+  arthur: fighter,
+  keaton: fighter,
+  benny: knight,
+  niles: none,
+  odin: samurai,
+  laslow: mercenary,
+  subaki: sky_knight,
+  hayato: diviner
+}

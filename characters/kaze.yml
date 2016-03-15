@@ -1,17 +1,16 @@
-name: 'Saizo'
+name: 'Kaze'
 
-faction: hoshido
+faction: both
 
 base_class: ninja
 heart_class: samurai
 
-skill: pyrotechnics
+skill: miraculous_save
 
 friendship_sets: {
-  kaze: none,
-  subaki: sky_knight,
-  ryoma: none,
-  laslow: mercenary
+  silas: cavalier,
+  xander: cavalier,
+  saizo: none
 }
 
 partner_sets: {
@@ -27,6 +26,12 @@ partner_sets: {
   oboro: spear_fighter,
   setsuna: archer,
   hana: none,
+  camilla: wyvern_rider,
+  beruka: wyvern_rider,
+  elise: troubadour_male,
+  effie: knight,
+  nyx: dark_mage,
   charlotte: fighter,
-  beruka: wyvern_rider
+  selena: mercenary,
+  peri: cavalier
 }

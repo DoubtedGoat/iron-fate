@@ -1,0 +1,37 @@
+name: 'Silas'
+
+faction: both
+
+base_class: cavalier
+heart_class: mercenary
+
+skill: vow_of_friendship
+
+friendship_sets: {
+  jakob: troubadour_male,
+  kaze: ninja,
+  ryoma: samurai
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour_male,
+  mozu: archer,
+  camilla: wyvern_rider,
+  beruka: wyvern_rider,
+  elise: troubadour_male,
+  effie: knight,
+  nyx: dark_mage,
+  peri: dark_mage,
+  charlotte: fighter,
+  selena: none,
+  hinoka: sky_knight,
+  sakura: monk,
+  kagero: ninja,
+  setsuna: archer,
+  oboro: spear_fighter,
+  hana: samurai,
+  rinkah: oni_savage,
+  orochi: diviner
+}

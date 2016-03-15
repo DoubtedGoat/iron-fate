@@ -1,0 +1,30 @@
+name: 'Xander'
+
+faction: nohr
+
+base_class: cavalier
+prepromote: paladin
+heart_class: wyvern_rider
+
+skill: chivalry
+
+friendship_sets: {
+  kaze: ninja,
+  leo: dark_mage,
+  laslow: mercenary,
+  ryoma: samurai
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour_male,
+  mozu: archer,
+  effie: knight,
+  nyx: dark_mage,
+  charlotte: fighter,
+  beruka: none,
+  selena: mercenary,
+  hinoka: sky_knight,
+  sakura: monk
+}

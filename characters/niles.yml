@@ -1,0 +1,33 @@
+name: 'Niles'
+
+faction: nohr
+
+base_class: outlaw
+heart_class: dark_mage
+
+skill: kidnap
+
+friendship_sets: {
+  arthur: fighter,
+  leo: none,
+  odin: none,
+  subaki: sky_knight
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour,
+  mozu: archer,
+  camilla: wyvern_rider,
+  beruka: wyvern_rider,
+  elise: troubadour_male,
+  effie: knight,
+  selena: mercenary,
+  peri: cavalier,
+  charlotte: fighter,
+  nyx: none,
+  oboro: spear_fighter,
+  setsuna: archer
+}

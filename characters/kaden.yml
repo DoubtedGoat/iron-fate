@@ -8,25 +8,25 @@ heart_class: diviner
 skill: reciprocity
 
 friendship_sets: {
-  hinata: samurai
-  hayato: none
-  azama: monk
+  hinata: samurai,
+  hayato: none,
+  azama: monk,
   keaton: fighter
 }
 
 partner_sets: {
-  avatar_female: avatar_secondary
-  azura: sky_knight
-  felicia: troubadour_male
-  mozu: archer
-  hinoka: sky_knight
-  sakura: monk
-  hana: samurai
-  orochi: apothecary
-  rinkah: oni_savage
-  kagero: ninja
-  oboro: spear_fighter
-  setsuna: archer
-  charlotte: fighter
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour_male,
+  mozu: archer,
+  hinoka: sky_knight,
+  sakura: monk,
+  hana: samurai,
+  orochi: apothecary,
+  rinkah: oni_savage,
+  kagero: ninja,
+  oboro: spear_fighter,
+  setsuna: archer,
+  charlotte: fighter,
   peri: cavalier
 }

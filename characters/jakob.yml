@@ -1,0 +1,38 @@
+name: 'Jakob'
+
+faction: both
+
+base_class: troubadour_male
+prepromote: butler
+heart_class: cavalier
+
+skill: evasive_partner
+
+friendship_sets: {
+  silas: none,
+  takumi: archer,
+  gunter: none
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: mercenary,
+  mozu: archer,
+  hinoka: sky_knight,
+  sakura: monk,
+  hana: samurai,
+  orochi: diviner,
+  rinkah: oni_savage,
+  kagero: ninja,
+  oboro: spear_fighter,
+  setsuna: archer,
+  camilla: wyvern_rider,
+  elise: wyvern_rider,
+  beruka: wyvern_rider,
+  effie: knight,
+  charlotte: fighter,
+  selena: mercenary,
+  nyx: dark_mage,
+  peri: none
+}

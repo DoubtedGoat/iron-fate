@@ -1,0 +1,32 @@
+name: 'Keaton'
+
+faction: nohr
+
+base_class: wolfskin
+heart_class: fighter
+
+skill: collector
+
+friendship_sets: {
+  arthur: none,
+  benny: knight,
+  laslow: mercenary,
+  kaden: diviner
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour_male,
+  mozu: archer,
+  camilla: wyvern_rider,
+  beruka: wyvern_rider,
+  elise: troubadour_male,
+  charlotte: troubadour_male,
+  effie: knight,
+  nyx: dark_mage,
+  selena: mercenary,
+  peri: cavalier,
+  hana: samurai,
+  rinkah: oni_savage
+}

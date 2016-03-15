@@ -1,0 +1,14 @@
+name: 'Shura'
+
+faction: both
+
+base_class: outlaw
+prepromote: adventurer
+heart_class: fighter
+alt_heart_class: ninja
+
+skill: highwayman
+
+partner_sets: {
+  avatar_female: avatar_secondary
+}

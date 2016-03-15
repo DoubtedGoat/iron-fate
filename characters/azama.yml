@@ -8,25 +8,25 @@ heart_class: apothecary
 skill: divine_retribution
 
 friendship_sets: {
-  subaki: sky_knight
-  hayato: diviner
-  kaden: diviner
+  subaki: sky_knight,
+  hayato: diviner,
+  kaden: diviner,
   arthur: fighter
 }
 
 partner_sets: {
-  avatar_female: avatar_secondary
-  azura: sky_knight
-  felicia: troubadour_male
-  mozu: archer
-  hinoka: sky_knight
-  sakura: sky_knight
-  setsuna: archer
-  hana: samurai
-  orochi: diviner
-  kagero: ninja
-  oboro: spear_fighter
-  rinkah: oni_savage
-  effie: knight
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour_male,
+  mozu: archer,
+  hinoka: sky_knight,
+  sakura: sky_knight,
+  setsuna: archer,
+  hana: samurai,
+  orochi: diviner,
+  kagero: ninja,
+  oboro: spear_fighter,
+  rinkah: oni_savage,
+  effie: knight,
   beruka: wyvern_rider
 }

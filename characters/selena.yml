@@ -1,0 +1,32 @@
+name: 'Selena'
+
+faction: nohr
+
+base_class: mercenary
+heart_class: sky_knight
+
+skill: fierce_rival
+
+friendship_sets: {
+  camilla: wyvern_rider,
+  beruka: wyvern_rider,
+  peri: cavalier,
+  setsuna: archer
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  jakob: troubadour_female,
+  silas: cavalier,
+  kaze: ninja,
+  xander: cavalier,
+  leo: dark_mage,
+  odin: dark_mage,
+  arthur: fighter,
+  keaton: fighter,
+  benny: knight,
+  niles: outlaw,
+  laslow: ninja,
+  hinata: samurai,
+  subaki: none
+}

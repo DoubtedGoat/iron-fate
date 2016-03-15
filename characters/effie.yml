@@ -1,0 +1,32 @@
+name: 'Effie'
+
+faction: nohr
+
+base_class: knight
+heart_class: troubadour_female
+
+skill: puissance
+
+friendship_sets: {
+  mozu: archer,
+  elise: none,
+  nyx: dark_mage,
+  hana: samurai
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  silas: cavalier,
+  jakob: none,
+  kaze: ninja,
+  xander: cavalier,
+  leo: dark_mage,
+  odin: dark_mage,
+  arthur: fighter,
+  benny: fighter,
+  keaton: fighter,
+  niles: outlaw,
+  laslow: mercenary,
+  hayato: diviner,
+  azama: shrine_maiden
+}

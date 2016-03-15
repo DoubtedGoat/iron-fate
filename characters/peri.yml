@@ -1,0 +1,32 @@
+name: 'Peri'
+
+faction: nohr
+
+base_class: cavalier
+heart_class: dark_mage
+
+skill: bloodthirst
+
+friendship_sets: {
+  felicia: troubadour_female,
+  charlotte: fighter,
+  selena: mercenary,
+  kagero: ninja
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  jakob: troubadour_female,
+  silas: mercenary,
+  kaze: ninja,
+  xander: wyvern_rider,
+  leo: none,
+  odin: none,
+  arthur: fighter,
+  keaton: fighter,
+  benny: knight,
+  niles: outlaw,
+  laslow: mercenary,
+  hinata: samurai,
+  kaden: diviner
+}

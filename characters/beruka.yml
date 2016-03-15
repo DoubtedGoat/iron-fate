@@ -1,0 +1,30 @@
+name: 'Beruka'
+
+faction: nohr
+
+base_class: wyvern_rider
+heart_class: fighter
+
+skill: opportunist
+
+friendship_sets: {
+  camilla: dark_mage,
+  charlotte: none,
+  selena: mercenary,
+  oboro: spear_fighter
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  jakob: troubadour_female,
+  silas: cavalier,
+  kaze: ninja,
+  xander: cavalier,
+  leo: dark_mage,
+  odin: dark_mage,
+  benny: knight,
+  niles: outlaw,
+  laslow: mercenary,
+  keaton: none,
+  arthur: none
+}

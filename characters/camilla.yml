@@ -1,0 +1,31 @@
+name: 'Camilla'
+
+faction: nohr
+
+base_class: wyvern_rider
+prepromote: malig_knight
+heart_class: dark_mage
+
+skill: roses_thorn
+
+friendship_sets: {
+  elise: troubadour_female,
+  selena: mercenary,
+  beruka: fighter,
+  hinoka: sky_knight
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  jakob: troubadour_female,
+  silas: cavalier,
+  kaze: ninja,
+  arthur: fighter,
+  keaton: fighter,
+  benny: knight,
+  niles: outlaw,
+  odin: none,
+  laslow: mercenary,
+  ryoma: samurai,
+  takumi: archer
+}

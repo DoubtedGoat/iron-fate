@@ -1,0 +1,18 @@
+name: 'Gunter'
+
+faction: nohr
+
+base_class: cavalier
+prepromote: great_knight
+heart_class: wyvern_rider
+alt_heart_class: mercenary
+
+skill: forceful_partner
+
+friendship_sets: {
+  jakob: troubadour_male
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary
+}

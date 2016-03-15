@@ -1,0 +1,31 @@
+name: 'Benny'
+
+faction: nohr
+
+base_class: knight
+heart_class: fighter
+
+skill: fierce_mien
+
+friendship_sets: {
+  keaton: none,
+  arthur: none,
+  hayato: diviner
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour_male,
+  mozu: archer,
+  camilla: wyvern_rider,
+  beruka: wyvern_rider,
+  elise: troubadour_male,
+  effie: troubadour_male,
+  nyx: dark_mage,
+  charlotte: none,
+  selena: mercenary,
+  peri: cavalier,
+  rinkah: oni_savage,
+  oboro: spear_fighter
+}

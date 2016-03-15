@@ -1,16 +1,15 @@
-name: 'Orochi'
+name: 'Mozu'
 
-faction: hoshido
+faction: both
 
-base_class: diviner
-heart_class: apothecary
+base_class: villager
+heart_class: archer
 
-skill: capture
+skill: forager
 
 friendship_sets: {
-  rinkah: oni_savage,
-  kagero: ninja,
   oboro: spear_fighter,
+  effie: knight,
   nyx: dark_mage
 }
 
@@ -24,9 +23,15 @@ partner_sets: {
   takumi: archer,
   subaki: sky_knight,
   saizo: ninja,
+  hayato: diviner,
+  kaden: diviner,
   azama: shrine_maiden,
-  hayato: oni_savage,
-  kaden: none,
+  xander: cavalier,
+  leo: dark_mage,
   odin: dark_mage,
+  arthur: fighter,
+  keaton: fighter,
+  benny: knight,
+  niles: outlaw,
   laslow: mercenary
 }

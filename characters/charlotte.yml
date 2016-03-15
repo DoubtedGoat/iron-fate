@@ -1,0 +1,32 @@
+name: 'Charlotte'
+
+faction: nohr
+
+base_class: fighter
+heart_class: troubadour_female
+
+skill: unmask
+
+friendship_sets: {
+  nyx: dark_mage,
+  beruka: wyvern_rider,
+  peri: cavalier,
+  rinkah: oni_savage
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  silas: cavalier,
+  jakob: none,
+  kaze: ninja,
+  xander: cavalier,
+  arthur: cavalier,
+  leo: dark_mage,
+  odin: dark_mage,
+  benny: knight,
+  niles: outlaw,
+  keaton: outlaw,
+  laslow: mercenary,
+  saizo: ninja,
+  kaden: diviner
+}

@@ -1,0 +1,30 @@
+name: 'Elise'
+
+faction: nohr
+
+base_class: troubadour_female
+heart_class: wyvern_rider
+
+skill: lilys_poise
+
+friendship_sets: {
+  azura: sky_knight,
+  camilla: none,
+  effie: knight,
+  sakura: shrine_maiden
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  jakob: cavalier,
+  silas: cavalier,
+  kaze: ninja,
+  arthur: fighter,
+  keaton: fighter,
+  benny: knight,
+  niles: outlaw,
+  odin: dark_mage,
+  laslow: mercenary,
+  ryoma: samurai,
+  takumi: archer
+}

@@ -1,0 +1,35 @@
+name: 'Azura'
+
+faction: both
+
+base_class: songstress
+heart_class: sky_knight
+
+skill: healing_descant
+
+friendship_sets: {
+  sakura: shrine_maiden,
+  hinoka: none,
+  elise: troubadour_female
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  jakob: troubadour_female,
+  silas: cavalier,
+  kaze: ninja,
+  ryoma: samurai,
+  takumi: archer,
+  saizo: ninja,
+  hayato: diviner,
+  kaden: diviner,
+  azama: shrine_maiden,
+  xander: cavalier,
+  leo: dark_mage,
+  odin: dark_mage,
+  arthur: fighter,
+  keaton: fighter,
+  benny: knight,
+  laslow: mercenary,
+  niles: outlaw
+}

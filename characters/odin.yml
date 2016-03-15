@@ -1,0 +1,32 @@
+name: 'Odin'
+
+faction: nohr
+
+base_class: dark_mage
+heart_class: samurai
+
+skill: aching_blood
+
+frienshdip_sets: {
+  leo: troubadour_male,
+  niles: outlaw,
+  laslow: mercenary,
+  hinata: none
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour_male,
+  mozu: archer,
+  camilla: wyvern_rider,
+  beruka: wyvern_rider,
+  elise: troubadour_male,
+  effie: knight,
+  nyx: outlaw,
+  charlotte: fighter,
+  selena: mercenary,
+  peri: cavalier,
+  orochi: diviner,
+  kagero: ninja
+}

@@ -1,0 +1,38 @@
+name: 'Felicia'
+
+faction: both
+
+base_class: troubadour_female
+prepromote: maid
+heart_class: mercenary
+
+skill: devoted_partner
+
+friendship_sets: {
+  hana: samurai,
+  peri: cavalier,
+  flora: dark_mage
+}
+
+partner_sets: {
+  avatar_male: avatar_secondary,
+  jakob: cavalier,
+  silas: cavalier,
+  kaze: ninja,
+  ryoma: samurai,
+  hinata: samurai,
+  takumi: archer,
+  subaki: sky_knight,
+  saizo: ninja,
+  hayato: diviner,
+  kaden: diviner,
+  azama: shrine_maiden,
+  xander: cavalier,
+  leo: dark_mage,
+  odin: dark_mage,
+  arthur: fighter,
+  keaton: fighter,
+  benny: knight,
+  niles: outlaw,
+  laslow: none
+}

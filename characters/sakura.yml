@@ -8,23 +8,23 @@ heart_class: sky_knight
 skill: quiet_strength
 
 friendship_sets: {
-  azura: none
-  hana: samurai
-  hinoka: none
+  azura: none,
+  hana: samurai,
+  hinoka: none,
   elise: troubadour_female
 }
 
 partner_sets: {
-  avatar_male: avatar_secondary
-  jakob: troubadour
-  silas: cavalier
-  kaze: ninja
-  saizo: ninja
-  hinata: samurai
-  hayato: diviner
-  kaden: diviner
-  azama: apothecary
-  subaki: none
-  xander: cavalier
+  avatar_male: avatar_secondary,
+  jakob: troubadour_female,
+  silas: cavalier,
+  kaze: ninja,
+  saizo: ninja,
+  hinata: samurai,
+  hayato: diviner,
+  kaden: diviner,
+  azama: apothecary,
+  subaki: none,
+  xander: cavalier,
   leo: dark_mage
 }

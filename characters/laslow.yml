@@ -1,0 +1,32 @@
+name: 'Laslow'
+
+faction: nohr
+
+base_class: mercenary
+heart_class: ninja
+
+skill: fancy_footwork
+
+friendship_sets: {
+  xander: cavalier,
+  odin: dark_mage,
+  keaton: fighter,
+  saizo: none
+}
+
+partner_sets: {
+  avatar_female: avatar_secondary,
+  azura: sky_knight,
+  felicia: troubadour_male,
+  mozu: archer,
+  camilla: wyvern_rider,
+  beruka: wyvern_rider,
+  elise: troubadour_male,
+  effie: knight,
+  nyx: dark_mage,
+  charlotte: fighter,
+  selena: sky_knight,
+  peri: cavalier,
+  hana: samurai,
+  orochi: diviner
+}
