@@ -1,0 +1,58 @@
+name: 'Avatar (Male)'
+
+faction: both
+
+base_class: nohr_prince
+heart_class: avatar_secondary
+
+skill: supportive
+
+friendship_sets: {
+  shura: outlaw,
+  azura: sky_knight,
+  jakob: troubadour_male,
+  niles: outlaw,
+  leo: dark_mage,
+  azama: monk,
+  benny: knight,
+  silas: cavalier,
+  subaki: sky_knight,
+  yukimura: apothecary,
+  arthur: fighter,
+  gunter: cavalier,
+  saizo: ninja,
+  keaton: fighter,
+  laslow: mercenary,
+  odin: dark_mage,
+  hayato: diviner,
+  hinata: samurai,
+  ryoma: samurai,
+  kaden: diviner,
+  xander: cavalier,
+  kaze: ninja,
+  takumi: archer
+}
+
+partner_sets: {
+  rinkah: oni_savage,
+  oboro: spear_fighter,
+  mozu: archer,
+  charlotte: fighter,
+  hana: samurai,
+  orochi: diviner,
+  setsuna: archer,
+  elise: troubadour_female,
+  flora: troubadour_female,
+  nyx: dark_mage,
+  reina: sky_knight,
+  hinoka: sky_knight,
+  felicia: troubadour_female,
+  beruka: wyvern_rider,
+  selena: mercenary,
+  scarlet: wyvern_rider,
+  camilla: wyvern_rider,
+  effie: knight,
+  peri: cavalier,
+  sakura: shrine_maiden,
+  kagero: ninja
+}

@@ -1,0 +1,14 @@
+name: 'Izana'
+
+faction: both
+
+base_class: monk
+prepromote: onmyoji
+heart_class: samurai
+alt_heart_class: apothecary
+
+skill: peacebringer
+
+partner_sets: {
+  avatar_female: avatar_secondary
+}

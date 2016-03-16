@@ -1,0 +1,14 @@
+name: 'Fuga'
+
+faction: both
+
+base_class: samurai
+prepromote: master_of_arms
+heart_class: oni_savage
+alt_heart_class: monk
+
+skill: wind_disciple
+
+partner_sets: {
+  avatar_female: avatar_secondary
+}
