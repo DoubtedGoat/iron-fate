@@ -1,4 +1,3 @@
-#require 'sqlite3'
 require 'pg'
 require 'uri'
 

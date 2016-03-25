@@ -1,3 +1,4 @@
+require './db/db_adapter.rb'
 require 'sinatra'
 require 'json'
 
