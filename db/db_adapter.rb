@@ -21,6 +21,7 @@ end
 class PGAdapter
   def connect(name)
     dbname = ENV['DATABASE_URL'] || name
+    puts dbname
     @db = PG.connect(dbname: dbname)
   end
 
