@@ -1,7 +1,4 @@
 require 'sinatra'
-require 'sqlite3'
-require 'pg'
-#require 'jbuilder'
 require 'json'
 
 
