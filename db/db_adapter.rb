@@ -1,5 +1,6 @@
 #require 'sqlite3'
 require 'pg'
+require 'uri'
 
 class SQLiteAdapter
   def connect(name)
@@ -20,9 +21,19 @@ end
 
 class PGAdapter
   def connect(name)
-    dbname = ENV['DATABASE_URL'] || name
-    puts dbname
-    @db = PG.connect(dbname: dbname)
+    if ENV['DATBASE_URL'] then
+      uri = URI(ENV['DATABASE_URL'])
+      @db = PG.connect(host: uri.host,
+                       port: uri.port,
+                       dbname: uri.path[1..-1],
+                       user: uri.user,
+                       password: uri.password)
+                       
+    else
+      dbname = name
+      puts dbname
+      @db = PG.connect(dbname: dbname)
+    end
   end
 
   def execute(sql)
