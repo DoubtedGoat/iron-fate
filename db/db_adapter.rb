@@ -21,7 +21,7 @@ end
 
 class PGAdapter
   def connect(name)
-    if ENV['DATBASE_URL'] then
+    if ENV['DATABASE_URL'] then
       uri = URI(ENV['DATABASE_URL'])
       @db = PG.connect(host: uri.host,
                        dbname: uri.path[1..-1],
