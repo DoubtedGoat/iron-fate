@@ -24,7 +24,6 @@ class PGAdapter
     if ENV['DATBASE_URL'] then
       uri = URI(ENV['DATABASE_URL'])
       @db = PG.connect(host: uri.host,
-                       port: uri.port,
                        dbname: uri.path[1..-1],
                        user: uri.user,
                        password: uri.password)
