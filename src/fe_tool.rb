@@ -5,7 +5,7 @@ require 'json'
 
 class FEService < Sinatra::Base
   get '/' do
-    "Hello World"
+    File.read(File.join('public', 'index.html'))
   end
   
   get '/characters/all' do 
