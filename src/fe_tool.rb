@@ -4,6 +4,7 @@ require 'json'
 
 
 class FEService < Sinatra::Base
+  set :root, './'
   get '/' do
     File.read(File.join('public', 'index.html'))
   end
