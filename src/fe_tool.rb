@@ -1,6 +1,7 @@
 require './db/db_adapter.rb'
 require 'sinatra'
 require 'json'
+require 'byebug'
 
 
 class FEService < Sinatra::Base
@@ -23,10 +24,14 @@ class FEService < Sinatra::Base
     db = PGAdapter.new
     db.connect('fedb')
     content_type :json
-    res = db.execute("select * from characters where shortname like '#{params['name']}'")
+    char_data = db.execute("select * from characters where shortname = '#{params['name']}'")
+    friendships = db.execute("select support_character, class from friendship_sets where character = '#{params['name']}'")
+    partners = db.execute("select support_character, class from partner_sets where character = '#{params['name']}'")
+    res = char_data.first
+    res['friendship_sets'] = friendships
+    res['partner_sets'] = partners
     db.close
     res.to_json
-
   end
 
 end

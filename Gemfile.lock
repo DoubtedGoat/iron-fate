@@ -7,6 +7,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    byebug (8.2.2)
     i18n (0.7.0)
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
@@ -31,6 +32,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   jbuilder
   pg
   sinatra
