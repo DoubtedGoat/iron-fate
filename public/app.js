@@ -17,4 +17,25 @@ $scope.display = false;
    };
    
 $scope.loadData();
+
+.directive('unitBigInfo', function() {
+  return {
+    restrict: 'E',
+    scope: {
+      shortname: '=shortname'
+    },
+    templateUrl: 'unitBigInfo.html'
+	};
+	
+	$scope.loadMoreData = function (shortname) {
+      $http.get('/characters/'+ shortname).success(function(data) {
+         $scope.moreData = data;
+      });
+   };
+   
+   $scope.loadMoreData();
+	
+}
+
+
 });
