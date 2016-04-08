@@ -14,8 +14,7 @@ class FEService < Sinatra::Base
     content_type :json
     db = PGAdapter.new
     db.connect('fedb')
-    res = db.execute('select shortname from characters')
-    res = res.collect { |el| el['shortname'] }
+    res = db.execute('select shortname, name from characters')
     db.close
     res.to_json
   end
