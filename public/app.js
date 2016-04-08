@@ -18,7 +18,7 @@ $scope.display = false;
    
 $scope.loadData();
 
-.directive('unitBigInfo', function() {
+app.directive('unitBigInfo', function() {
   return {
     restrict: 'E',
     scope: {
