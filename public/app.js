@@ -12,7 +12,7 @@ $scope.display = false;
    };
    
    $scope.unitClicked = function () {
-	    $scope.display = $scope.!display;
+	    $scope.display = !$scope.display;
    };
    
 $scope.loadData();
