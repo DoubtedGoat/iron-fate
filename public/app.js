@@ -35,7 +35,7 @@ app.directive('unitBigInfo', function() {
    
    $scope.loadMoreData();
 	
-}
+};
 
 
 });
