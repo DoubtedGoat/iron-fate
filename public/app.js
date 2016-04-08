@@ -9,5 +9,5 @@ app.controller('MyCtrl', function($scope, $http) {
          $scope.items = data;
       });
    };
-
+loadData
 });
