@@ -4,17 +4,18 @@
   <head>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
     <script src="app.js"></script>
+	<link href="style.css" rel="stylesheet">
   </head>
 
   <body ng-controller="MyCtrl">
 <!--     <button ng-click="loadData()">Load Data From Server</button>
  -->    
          <div ng-repeat="item in items">
-		 
-		 <a href="https://www.google.com"><img ng-src="/thumbnails/{{item}}.jpg">{{item}}</a>
+		 <!-- //ng-click= -->
+		 <img  ng-src="/thumbnails/{{item}}.jpg">{{item}}
 		 </div>
     <!-- TODO: Make directive that can be expanded and looped-->
-	Hello World
+	Hello WorldY
   </body>
 
 </html>
