@@ -14,7 +14,7 @@
  -->    
          <div ng-repeat="item in items">
 		 <!-- //ng-click= -->
-		 <img  ng-src="/thumbnails/{{item}}.jpg">{{item}}
+		 <img ng-click="unitClicked()" ng-src="/thumbnails/{{item}}.jpg">{{item}}
 		 </div>
     <!-- TODO: Make directive that can be expanded and looped-->
 	Hello World
