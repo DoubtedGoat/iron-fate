@@ -11,6 +11,7 @@ $scope.display = false;
       });
    };
    
+   //need to put this in directive so it applies individually
    $scope.unitClicked = function () {
 	    $scope.display = !$scope.display;
    };
