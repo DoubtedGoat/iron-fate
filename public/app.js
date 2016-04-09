@@ -37,7 +37,7 @@ $scope.loadData();
    };
    
    $scope.loadMoreData();
-	]})
+	}])
 }; 
 
 
