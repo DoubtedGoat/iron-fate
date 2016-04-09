@@ -17,6 +17,7 @@ $scope.display = false;
    };
    
 $scope.loadData();
+};
 
  app.directive('unitBigInfo', [function() {
   return {
