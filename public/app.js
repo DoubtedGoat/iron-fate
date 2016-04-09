@@ -12,9 +12,7 @@ $scope.display = false;
    };
    
    //need to put this in directive so it applies individually
-   $scope.unitClicked = function () {
-	    $scope.display = !$scope.display;
-   };
+   
    
 $scope.loadData();
 });
@@ -30,6 +28,10 @@ $scope.loadData();
 	 }])
 	
 	.controller('unitInfoController' [function($scope){
+	
+	$scope.unitClicked = function () {
+	    $scope.display = !$scope.display;
+   };
 	
 	$scope.loadMoreData = function (shortname) {
       $http.get(('/characters/'+ shortname)).success(function(data) {
