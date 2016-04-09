@@ -19,7 +19,7 @@ $scope.loadData();
 
  app.directive('unitBigInfo', [function() {
   return {
-	  controllerAs: 'unitBigIController'
+	  controllerAs: 'unitBigIController',
     restrict: 'E',
     scope: {
       shortname: '='
