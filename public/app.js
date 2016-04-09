@@ -28,7 +28,7 @@ $scope.loadData();
 	};
 	 }])
 	
-	.controller:'unitInfoController' [function($scope){
+	.controller('unitInfoController' [function($scope){
 	
 	$scope.loadMoreData = function (shortname) {
       $http.get(('/characters/'+ shortname)).success(function(data) {
@@ -37,7 +37,7 @@ $scope.loadData();
    };
    
    $scope.loadMoreData();
-	]}
+	]})
 }; 
 
 
