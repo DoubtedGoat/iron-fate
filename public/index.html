@@ -16,7 +16,7 @@
 		 <!-- //ng-click= -->
 		 <img ng-click="unitClicked()" ng-src="/thumbnails/{{item.shortname}}.jpg">{{item.name}}
 			<div ng-show="display">
-				<unit-big-info shortname={{item.shortname}}> 
+				<unit-big-info shortname=item.shortname> 
 				</unit-big-info>
 			</div>
 		 </div>
