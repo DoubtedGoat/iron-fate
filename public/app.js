@@ -28,7 +28,7 @@ $scope.loadData();
 	};
 	 }])
 	
-	.controller('unitInfoController' [function($scope){
+	.controller([function($scope){
 	
 	var unitBigIController = this;
 	
