@@ -19,6 +19,7 @@ $scope.loadData();
 
  app.directive('unitBigInfo', [function() {
   return {
+	  controllerAs: 'unitBigIController'
     restrict: 'E',
     scope: {
       shortname: '='
@@ -28,6 +29,8 @@ $scope.loadData();
 	 }])
 	
 	.controller('unitInfoController' [function($scope){
+	
+	var unitBigIController = this;
 	
 	$scope.unitClicked = function () {
 	    $scope.display = !$scope.display;
