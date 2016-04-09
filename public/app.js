@@ -39,7 +39,7 @@ $scope.loadData();
    
    $scope.loadMoreData();
 	}])
-}; 
+
 
 
 
