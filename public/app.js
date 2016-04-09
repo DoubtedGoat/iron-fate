@@ -41,4 +41,4 @@ $scope.loadData();
 }; 
 
 
-};
+
