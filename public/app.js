@@ -21,7 +21,7 @@ $scope.loadData();
   return {
     restrict: 'E',
     scope: {
-      shortname: '=shortname'
+      shortname: '='
     },
     templateUrl: 'unitBigInfo.html'
 	};
