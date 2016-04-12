@@ -9,7 +9,7 @@ div#splash{
 
 div#open{
 background-image: url('/full_art/saizo.png');
-
+opacity: 0.3;
 }
 
 img {
