@@ -29,7 +29,7 @@ app.directive('unitBigInfo', [function() {
 	      $scope.moreData = data;
 	      });
 		  
-		  $scope.gifUnit = (''+$scope.shortname+'_'+$scope.moreData.prepromote||$scope.moreData.base_class+'');
+		  $scope.gifUnit = (''+$scope.shortname+'_'+$scope.moreData.base_class+'');
 		  
 		  console.log(gifUnit);
 	};
