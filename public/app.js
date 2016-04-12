@@ -27,11 +27,13 @@ app.directive('unitBigInfo', [function() {
 	$scope.loadMoreData = function (shortname) {
 	    $http.get(('/characters/'+ shortname)).success(function(data) {
 	      $scope.moreData = data;
-	      });
 		  
 		  $scope.gifUnit = (''+$scope.shortname+'_'+$scope.moreData.base_class+'');
 		  
 		  console.log(gifUnit);
+	      });
+		  
+		  
 	};
 	//TODO: move loadMoreData into a 'service' that is cacheable and is called upon display=true
 	$scope.loadMoreData($scope.shortname);
