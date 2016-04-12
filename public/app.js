@@ -20,7 +20,7 @@ $scope.loadData();
 });
 
 app.directive('unitBigInfo', [function() {
-    var unitBigIController = ['$scope', function($scope){
+    var unitBigIController = ['$scope', '$http', function($scope){
 	console.log("inside");
 
 	$scope.unitClicked = function () {
