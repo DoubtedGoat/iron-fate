@@ -8,8 +8,6 @@ $scope.display = false;
    $scope.loadData = function () {
       $http.get('/characters/all').success(function(data) {
          $scope.items = data;
-		 	console.log("here");
-
       });
    }; 
 $scope.loadData();
@@ -25,6 +23,7 @@ app.directive('unitBigInfo', [function() {
 	};
 	
 	$scope.loadMoreData = function (shortname) {
+		//Loads more speficic data based on shortname, and makes a path to the unit gif
 	    $http.get(('/characters/'+ shortname)).success(function(data) {
 	      $scope.moreData = data;
 		  
