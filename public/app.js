@@ -31,6 +31,8 @@ app.directive('unitBigInfo', [function() {
 	
 	console.log("im here");
     var unitBigIController = ['$scope', function($scope){
+			console.log("inside");
+
 	$scope.unitClicked = function () {
 	    $scope.display = !$scope.display;
 	};
