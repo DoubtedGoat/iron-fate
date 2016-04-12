@@ -37,3 +37,28 @@ characters/:shortname - Information about :shortname (ie characters/azura gives 
 		blahblahblahblah
 
 	}
+
+http://iron-fate.herokuapp.com/classes/onmyoji
+ classes/:shortname - Gives information about classes
+
+
+  {
+    name: <string>,
+    shortname: <string>,
+    
+    skills: [
+      {
+        name: <string>,
+        shortname: <string>
+      }
+      ...
+      ],
+
+    weapons: [
+      {
+        name: <string>,
+        shortname: <string>,
+      }
+      ...
+      ]
+  }
