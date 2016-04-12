@@ -32,7 +32,7 @@ app.directive('unitBigInfo', [function() {
 	      $scope.moreData = data;
 	      });
 	};
-	
+	//TODO: move loadMoreData into a 'service' that is cacheable and is called upon display=true
 	$scope.loadMoreData($scope.shortname);
     }];
 
