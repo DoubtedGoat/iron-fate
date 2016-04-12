@@ -1,3 +1,4 @@
+angular.module('app')
 app.directive('unitBigInfo', [function() {
 	return {
 	controller: unitBigIController,
