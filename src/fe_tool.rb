@@ -42,7 +42,7 @@ class FEService < Sinatra::Base
     weapons = db.execute("select weapons.shortname, weapons.name from classes join classes_to_weapons as c2w on classes.shortname=c2w.class join weapons on c2w.weapon=weapons.shortname where classes.shortname='#{params['name']}'")
     res['weapons'] = weapons
 
-    skills = db.execute("select skills.shortname, skills.name from classes join classes_to_skills as c2s on classes.shortname=c2s.class join skills on c2s.weapon=skills.shortname where classes.shortname='#{params['name']}'")
+    skills = db.execute("select skills.shortname, skills.name from classes join classes_to_skills as c2s on classes.shortname=c2s.class join skills on c2s.skill=skills.shortname where classes.shortname='#{params['name']}'")
     res['skills'] = skills
 
     db.close
