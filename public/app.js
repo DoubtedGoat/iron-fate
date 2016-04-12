@@ -28,9 +28,9 @@ app.directive('unitBigInfo', [function() {
 	    $http.get(('/characters/'+ shortname)).success(function(data) {
 	      $scope.moreData = data;
 		  
-		  $scope.gifUnit = (''+$scope.shortname+'_'+$scope.moreData.base_class+'');
+		  $scope.gifUnit = (''+$scope.shortname+'_'+($scope.moreData.prepromote||$scope.moreData.base_class)+'');
 		  
-		  console.log(gifUnit);
+		  console.log($scope.gifUnit);
 	      });
 		  
 		  
