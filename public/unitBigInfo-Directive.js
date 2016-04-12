@@ -1,4 +1,4 @@
-angular.module('app').directive('unitBigInfo', [function() {
+angular.module('myApp').directive('unitBigInfo', [function() {
 	return {
 	controller: unitBigIController,
 	restrict: 'E',
