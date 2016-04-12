@@ -37,7 +37,7 @@ app.directive('unitBigInfo', [function() {
     }];
 
     return {
-	controller: unitBigIController,
+	controller:['$scope','$http', unitBigIController],
 	restrict: 'E',
 	scope: {
 	    shortname: '='
