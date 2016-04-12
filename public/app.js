@@ -29,7 +29,7 @@ $scope.loadData();
 	 }])
 	
 	.controller([function($scope){
-	
+	console.log("in here");
 	var unitBigIController = this;
 	
 	$scope.unitClicked = function () {
