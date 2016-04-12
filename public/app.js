@@ -8,6 +8,8 @@ $scope.display = false;
    $scope.loadData = function () {
       $http.get('/characters/all').success(function(data) {
          $scope.items = data;
+		 	console.log("here");
+
       });
    };
    
