@@ -17,34 +17,32 @@ $scope.display = false;
 $scope.loadData();
 });
 
- app.directive('unitBigInfo', [function() {
-  return {
-	  controllerAs: 'unitBigIController',
-    restrict: 'E',
-    scope: {
-      shortname: '='
-    },
-    templateUrl: 'unitBigInfo.html'
-	};
-	 }])
-	
-	.controller([function($scope){
-	
-	var unitBigIController = this;
-	
+
+app.directive('unitBigInfo', [function() {
+    var unitBigIController = ['$scope', function($scope){
 	$scope.unitClicked = function () {
 	    $scope.display = !$scope.display;
-   };
+	};
 	
 	$scope.loadMoreData = function (shortname) {
-      $http.get(('/characters/'+ shortname)).success(function(data) {
-         $scope.moreData = data;
-      });
-   };
-   
-   $scope.loadMoreData();
-	}])
+	    /*$http.get(('/characters/'+ shortname)).success(function(data) {
+		$scope.moreData = data;
+	    });*/
+	};
+	
+	$scope.loadMoreData();
+    }];
 
+
+    return {
+	controller: unitBigIController,
+	restrict: 'E',
+	scope: {
+	    shortname: '@'
+	},
+	templateUrl: 'unitBigInfo.html'
+    };
+}]);
 
 
 
