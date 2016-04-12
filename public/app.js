@@ -18,7 +18,7 @@ $scope.loadData();
 });
 
 
-app.directive('unitBigInfo', [function() {
+/* app.directive('unitBigInfo', [function() {
 	return {
 	controller: unitBigIController,
 	restrict: 'E',
@@ -45,7 +45,7 @@ app.directive('unitBigInfo', [function() {
 
 
     
-}]);
+}]); */
 
 
 
