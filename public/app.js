@@ -11,14 +11,11 @@ $scope.display = false;
 		 	console.log("here");
 
       });
-   };
-   
-   //need to put this in directive so it applies individually
-   
-   
+   }; 
 $scope.loadData();
 });
 
+//TODO: figure out why this cant be moved into a separate file
 app.directive('unitBigInfo', [function() {
     var unitBigIController = ['$scope', '$http', function($scope, $http){
 	console.log("inside");
