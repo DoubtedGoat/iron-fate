@@ -3,8 +3,8 @@ position:relative;
 }
 
 div#splash{
-background-image: url('/banners/Revelation.png');
-opacity:0.2;
+ background-color: AliceBlue; 
+
 }
 
 img {
