@@ -16,7 +16,7 @@ $scope.loadData();
 //TODO: figure out why this cant be moved into a separate file
 app.directive('unitBigInfo', [function() {
     var unitBigIController = ['$scope', '$http', function($scope, $http){
-	console.log("inside");
+	//console.log("inside");
 
 	$scope.unitClicked = function () {
 	    $scope.display = !$scope.display;
