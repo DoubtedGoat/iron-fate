@@ -19,6 +19,16 @@ $scope.loadData();
 
 
 app.directive('unitBigInfo', [function() {
+	return {
+	controller: unitBigIController,
+	restrict: 'E',
+	scope: {
+	    shortname: '='
+	},
+	templateUrl: 'unitBigInfo.html'
+    };
+	
+	
     var unitBigIController = ['$scope', function($scope){
 	$scope.unitClicked = function () {
 	    $scope.display = !$scope.display;
@@ -34,14 +44,7 @@ app.directive('unitBigInfo', [function() {
     }];
 
 
-    return {
-	controller: unitBigIController,
-	restrict: 'E',
-	scope: {
-	    shortname: '@'
-	},
-	templateUrl: 'unitBigInfo.html'
-    };
+    
 }]);
 
 
