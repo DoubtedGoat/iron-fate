@@ -28,9 +28,9 @@ app.directive('unitBigInfo', [function() {
 	};
 	
 	$scope.loadMoreData = function (shortname) {
-	    /*$http.get(('/characters/'+ shortname)).success(function(data) {
+	    $http.get(('/characters/'+ shortname)).success(function(data) {
 	      $scope.moreData = data;
-	      });*/
+	      });
 	};
 	
 	$scope.loadMoreData();
@@ -44,12 +44,7 @@ app.directive('unitBigInfo', [function() {
 	},
 	templateUrl: 'unitBigInfo.html'
     };
-    
-    console.log("im here");
-
-
-
-    
+  
 }]);
 
 
