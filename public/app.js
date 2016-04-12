@@ -27,7 +27,7 @@ app.directive('unitBigInfo', [function() {
 	templateUrl: 'unitBigInfo.html'
     };
 	
-	
+	console.log("im here");
     var unitBigIController = ['$scope', function($scope){
 	$scope.unitClicked = function () {
 	    $scope.display = !$scope.display;
