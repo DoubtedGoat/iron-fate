@@ -1,0 +1,39 @@
+iron-fate.herokuapp.com - Live site.
+iron-fate-staging.herokuapp.com -staging
+<img ng-src='thumbnails/felicia.jpg' />
+
+
+ENDPOINTS
+
+http://iron-fate.herokuapp.com/characters/all
+characters/all - Lists shortnames of all characters
+
+http://iron-fate.herokuapp.com/characters/azura
+characters/:shortname - Information about :shortname (ie characters/azura gives info about Azura)
+	{
+		shortname: <string>,
+		name: <string>,
+		base_class: <string>,
+		prepromote: <string>,
+		heart_class: <string>,
+		alt_heart_class: <string>,
+		friendship_sets: [
+			{
+				supporting_character: <string>,
+				class: <string>
+			}
+                        ...
+		],
+		partner_sets: [
+			{
+				supporting_character: <string>,
+				class: <string>
+			}
+                        ...
+		],
+
+		hp: <integer,
+		str: <integer>,
+		blahblahblahblah
+
+	}
