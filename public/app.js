@@ -33,7 +33,7 @@ app.directive('unitBigInfo', [function() {
 	      });
 	};
 	
-	$scope.loadMoreData();
+	$scope.loadMoreData($scope.shortname);
     }];
 
     return {
