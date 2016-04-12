@@ -7,11 +7,6 @@ div#splash{
 
 }
 
-div#open{
-background-image: url('/full_art/saizo.png');
-opacity: 0.3;
-}
-
 img {
     opacity: 0.7;
     filter: alpha(opacity=40); /* For IE8 and earlier */
