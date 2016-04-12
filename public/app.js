@@ -30,7 +30,6 @@ app.directive('unitBigInfo', [function() {
 		  
 		  $scope.gifUnit = (''+$scope.shortname+'_'+($scope.moreData.prepromote||$scope.moreData.base_class)+'');
 		  
-		  console.log($scope.gifUnit);
 	      });
 		  
 		  
