@@ -23,7 +23,7 @@ div#splash{
   background-color: $primary-100;
   padding: 10px;
   margin: 10px;
-  box-shadow: 2px 2px 10px;
+  box-shadow: 2px 2px 6px;
 }
 
 .unit-card:hover {
@@ -31,7 +31,7 @@ div#splash{
 }
 
 .unit-card.unit-card-select {
-  box-shadow: 6px 6px 6px;
+  box-shadow: 6px 6px 10px;
 }
 
 .header {
