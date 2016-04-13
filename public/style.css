@@ -7,12 +7,12 @@ div#splash{
 
 }
 
-img {
+.unit-card img {
     opacity: 0.7;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
-img:hover {
+.unit-card:hover img {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
