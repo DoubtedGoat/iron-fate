@@ -9,10 +9,7 @@ div#splash{
 
 }
 
-.unit-card img {
-  opacity: 0.7;
-  filter: alpha(opacity=40); /* For IE8 and earlier */
-}
+
 
 .unit-card:hover img {
   opacity: 1.0;
@@ -24,21 +21,53 @@ div#splash{
   padding: 10px;
   margin: 10px;
   box-shadow: 2px 2px 6px;
+
+  img {
+    opacity: 0.7;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+  }
+
+  .header {
+    opacity: 0.7;
+    font-family: $header-fonts;
+    font-size: 2em;
+  }
+
+  .body {
+    opacity: 0.7;
+    font-family: $body-fonts;
+  }
 }
 
 .unit-card:hover {
   box-shadow: 4px 4px 8px;
+
+  img {
+    opacity: 1.0;
+  }
+
+  .header {
+    opacity: 1.0;
+  }
+
+  .body {
+    opacity: 1.0;
+  }
 }
 
 .unit-card.unit-card-select {
   box-shadow: 6px 6px 10px;
+
+  img {
+    opacity: 1.0;
+  }
+
+  .header {
+    opacity: 1.0;
+  }
+
+  .body {
+    opacity: 1.0;
+  }
 }
 
-.header {
-  font-family: $header-fonts;
-  font-size: 2em;
-}
-
-.body {
-  font-family: $body-fonts;
-}
