@@ -1,9 +1,15 @@
 
 
 <div class="unit-card" ng-class="{'unit-card-select': display}" ng-click="unitClicked()">
+<<<<<<< HEAD
 <img ng-src="/thumbnails/{{shortname}}.png">
-<h3>{{moreData.name}}</h3>
+<span class="header">{{moreData.name}}</span>
+=======
+<img ng-src="/thumbnails/{{shortname}}.jpg">
+{{moreData.name}}
+>>>>>>> parent of 4556d32... h3
 			<div ng-show="display">
+			  <span class="body">
 				Name: {{moreData.name}} <img ng-src="/gifs/{{gifUnit}}.gif"></br>
 				Base Class: {{moreData.base_class}} </br>
 				Heart Class: {{moreData.heart_class}} </br>
@@ -18,6 +24,7 @@
 				RES: {{moreData.res}} </br>
 				Partner sets: {{moreData.partner_sets}}</br>
 				Friendship sets: {{moreData.friendship_sets}}</br>
+			</span>
 				
 				<select name="partnerSets{{shortname}}" id="partnerSets{{shortname}}ID" ng-options="support_character in partnerSets" ng-click="$event.stopPropagation();">
 
