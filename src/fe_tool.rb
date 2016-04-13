@@ -3,7 +3,6 @@ require 'sinatra'
 require 'json'
 require 'byebug'
 
-
 class FEService < Sinatra::Base
   set :root, './'
   get '/' do
