@@ -16,3 +16,18 @@ img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
+
+.unit-card {
+  background-color: LavenderBlush;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px;
+}
+
+.unit-card:hover {
+  box-shadow: 4px 4px 8px;
+}
+
+.unit-card.unit-card-select {
+  box-shadow: 6px 6px 6px;
+}
