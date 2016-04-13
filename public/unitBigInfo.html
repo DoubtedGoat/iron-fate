@@ -4,7 +4,7 @@
 <img ng-src="/thumbnails/{{shortname}}.png">
 <span class="header">{{moreData.name}}</span>
 			<div ng-show="display">
-			  <span class="body">
+			  <div class="body">
 				Name: {{moreData.name}} <img ng-src="/gifs/{{gifUnit}}.gif"></br>
 				Base Class: {{moreData.base_class}} </br>
 				Heart Class: {{moreData.heart_class}} </br>
@@ -19,7 +19,7 @@
 				RES: {{moreData.res}} </br>
 				Partner sets: {{moreData.partner_sets}}</br>
 				Friendship sets: {{moreData.friendship_sets}}</br>
-			</span>
+			</div>
 				
 				<select name="partnerSets{{shortname}}" id="partnerSets{{shortname}}ID" ng-options="support_character in partnerSets" ng-click="$event.stopPropagation();">
 
