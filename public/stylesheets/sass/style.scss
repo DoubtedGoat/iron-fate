@@ -18,9 +18,17 @@ div#splash{
 
 .unit-card {
   background-color: $primary-100;
-  padding: 10px;
   margin: 10px;
   box-shadow: 2px 2px 6px;
+
+  .select-bar {
+    padding: 10px;
+    background-color: $primary-500;
+  }
+
+  .data-region {
+    padding: 10px;
+  }
 
   img {
     opacity: 0.7;
