@@ -23,8 +23,8 @@ class FEService < Sinatra::Base
     db.connect('fedb')
     content_type :json
     char_data = db.execute("select * from characters where shortname = '#{params['name']}'")
-    friendships = db.execute("select support_character, class from friendship_sets where character = '#{params['name']}'")
-    partners = db.execute("select support_character, class from partner_sets where character = '#{params['name']}'")
+    friendships = db.execute("select shortname, name, class from friendship_sets join characters on friendship_sets.support_character=characters.shortname where friendship_sets.character = '#{params['name']}'")
+    partners = db.execute("select shortname, name, class from partner_sets join characters on partner_sets.support_character=characters.shortname where partner_sets.character = '#{params['name']}'")
     res = char_data.first
     res['friendship_sets'] = friendships
     res['partner_sets'] = partners
