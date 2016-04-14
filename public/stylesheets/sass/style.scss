@@ -4,6 +4,10 @@
 position:relative;
 }
 
+body {
+  background-color: $primary-50;
+}
+
 .unit-card:hover img {
   opacity: 1.0;
   filter: alpha(opacity=100); /* For IE8 and earlier */
