@@ -1,4 +1,4 @@
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ['ui.bootstrap']);
 
 //add a controller to it
 app.controller('MyCtrl', function($scope, $http) {
@@ -62,22 +62,16 @@ app.directive('setMinInfo', [function() {
 
 app.directive('setSelector', [function() {
     var setSelController = ['$scope', function($scope){
+	$scope.display = false;
 	$scope.herro = 'herro?';
 	$scope.showModal = function() {
+	    $scope.active = true;
 	    $scope.herro = 'HERRO!';
-	    var modal = $uibModal.open({
-		templateUrl: 'setSelectorModal.html',
-		controller: 'setSelModalController',
-		resolve: function () {
-		    sets: return $scope.sets;
-		}
-	    });
-
-	    modal.result.then(function (selectedSet) {
-		$scope.selectedSet = selectedSet;
-	    });
 	};
-    }];
+	$scope.hideModal = function() {
+	    $scope.active = false;
+	};
+	}];
     return {
 	controller: setSelController,
 	restrict: 'E',
@@ -88,18 +82,6 @@ app.directive('setSelector', [function() {
     };
   
 }]);
-
-app.controller('setSelModalController', function($scope, $uibModalInstance, sets) {
-    $scope.sets = sets;
-    $scope.selectedSet = $scope.sets[0];
-    $scope.ok = function() {
-	$uibModalInstance.close($scope.selectedSet);
-    };
-
-    $scope.cancel = function() {
-	$uibModalInstance.dismiss('cancel');
-    };
-});
 
 
 

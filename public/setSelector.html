@@ -1,15 +1,6 @@
 <div>
   <div ng-click="showModal()">
+    {{herro}}
     <img src="thumbnails/saizo.png" />
-  </div>
-  {{herro}}
-  <div ng-show="active">
-    <div class="modal-overlay" ng-click="hideModal()">
-      <div class="modal-dialog" ng-click="$event.stopPropagation()">
-	<div ng-repeat="info in sets">
-	  <set-min-info info="info"></set-min-info>
-	</div>
-      </div>
-    </div>
   </div>
 </div>
