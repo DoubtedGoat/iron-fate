@@ -49,6 +49,42 @@ app.directive('unitBigInfo', [function() {
 }]);
 
 
+app.directive('setMinInfo', [function() {
+    return {
+	restrict: 'E',
+	scope: {
+	    info: '='
+	},
+	templateUrl: 'setMinInfo.html'
+    };
+  
+}]);
+
+app.directive('setSelector', [function() {
+    var setSelController = ['$scope', function($scope){
+	$scope.display = false;
+	$scope.herro = 'herro?';
+	$scope.showModal = function() {
+	    $scope.active = true;
+	    $scope.herro = 'HERRO!';
+	};
+	$scope.hideModal = function() {
+	    $scope.active = false;
+	};
+	}];
+    return {
+	controller: setSelController,
+	restrict: 'E',
+	scope: {
+	    sets: '='
+	},
+	templateUrl: 'setSelector.html'
+    };
+  
+}]);
+
+
+
 
 
 

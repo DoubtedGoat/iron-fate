@@ -1,31 +1,31 @@
 
 
 <div class="unit-card" ng-class="{'unit-card-select': display}">
-<div class="select-bar" ng-click="unitClicked()">
-  <img ng-src="/thumbnails/{{shortname}}.png">
-  <span class="header">{{moreData.name}}</span>
-</div>
-			<div ng-show="display" class="data-region">
-			  <div class="body">
-				Name: {{moreData.name}} <img ng-src="/gifs/{{gifUnit}}.gif"></br>
-				Base Class: {{moreData.base_class}} </br>
-				Heart Class: {{moreData.heart_class}} </br>
-				Prepromote: {{moreData.prepromote}}</br>
-				HP: {{moreData.hp}} </br>
-				STR: {{moreData.str}} </br>
-				MAG: {{moreData.mag}} </br>
-				SKL: {{moreData.skl}} </br>
-				SPD: {{moreData.spd}} </br>
-				LCK: {{moreData.lck}} </br>
-				DEF: {{moreData.def}} </br>
-				RES: {{moreData.res}} </br>
-				Partner sets: {{moreData.partner_sets}}</br>
-				Friendship sets: {{moreData.friendship_sets}}</br>
-			</div>
-				
-				<select name="partnerSets{{shortname}}" id="partnerSets{{shortname}}ID" ng-options="support_character in partnerSets" ng-click="$event.stopPropagation();">
+  <div class="select-bar" ng-click="unitClicked()">
+    <img ng-src="/thumbnails/{{shortname}}.png">
+    <span class="header">{{moreData.name}}</span>
+  </div>
+  <div ng-show="display" class="data-region">
+    <div class="body">
+      Name: {{moreData.name}} <img ng-src="/gifs/{{gifUnit}}.gif"></br>
+      Base Class: {{moreData.base_class}} </br>
+      Heart Class: {{moreData.heart_class}} </br>
+      Prepromote: {{moreData.prepromote}}</br>
+      HP: {{moreData.hp}} </br>
+      STR: {{moreData.str}} </br>
+      MAG: {{moreData.mag}} </br>
+      SKL: {{moreData.skl}} </br>
+      SPD: {{moreData.spd}} </br>
+      LCK: {{moreData.lck}} </br>
+      DEF: {{moreData.def}} </br>
+      RES: {{moreData.res}} </br>
+      <set-selector sets="moreData.partner_sets"></div>
+      Friendship sets: {{moreData.friendship_sets}}</br>
+    </div>
+    
+    <select name="partnerSets{{shortname}}" id="partnerSets{{shortname}}ID" ng-options="support_character in partnerSets" ng-click="$event.stopPropagation();">
 
-				
-			</div>
-			
+      
+  </div>
+  
 </div>
