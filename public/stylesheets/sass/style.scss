@@ -23,7 +23,7 @@ div#splash{
 
   .select-bar {
     padding: 10px;
-    background-color: $primary-500;
+    background-color: $primary-300;
   }
 
   .data-region {
@@ -37,6 +37,7 @@ div#splash{
 
   .header {
     opacity: 0.7;
+    color: $white;
     font-family: $header-fonts;
     font-size: 2em;
   }
