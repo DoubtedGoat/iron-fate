@@ -4,13 +4,6 @@
 position:relative;
 }
 
-div#splash{
-  background-color: Lavender; 
-
-}
-
-
-
 .unit-card:hover img {
   opacity: 1.0;
   filter: alpha(opacity=100); /* For IE8 and earlier */
@@ -24,6 +17,7 @@ div#splash{
   .select-bar {
     padding: 10px;
     background-color: $primary-300;
+    box-shadow: 2px 2px 6px;
   }
 
   .data-region {
@@ -31,7 +25,7 @@ div#splash{
   }
 
   img {
-    opacity: 0.7;
+    opacity: 0.87;
     filter: alpha(opacity=40); /* For IE8 and earlier */
   }
 
