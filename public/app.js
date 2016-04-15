@@ -64,7 +64,7 @@ app.directive('setSelector', [function() {
     var setSelController = ['$scope','$uibModal', function($scope, $uibModal){
 	$scope.herro = 'herro?';
 	$scope.showModal = function() {
-	    $scope.herro = 'HERRO!';
+	    $scope.herro = 'HERRO!!';
 	    var modal = $uibModal.open({
 		templateUrl: 'setSelectorModal.html',
 		controller: 'setSelModalController',
