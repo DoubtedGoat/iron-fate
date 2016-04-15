@@ -62,7 +62,7 @@ app.directive('setMinInfo', [function() {
 
 app.directive('setSelector', [function() {
     var setSelController = ['$scope','$uibModal', function($scope, $uibModal){
-	$scope.herro = 'herro?';
+	$scope.herro = 'herro??';
 	$scope.showModal = function() {
 	    $scope.herro = 'HERRO!!';
 	    var modal = $uibModal.open({
