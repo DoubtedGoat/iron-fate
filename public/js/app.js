@@ -61,19 +61,40 @@ app.directive('setMinInfo', [function() {
 }]);
 
 app.directive('setSelector', [function() {
+	
     var setSelController = ['$scope','$uibModal', function($scope, $uibModal){
+		
+		var setSelModalController = ['$scope','$uibModalInstance', 'sets', function($scope, $uibModalInstance, sets) {
+    $scope.sets = sets;
+	console.log("fuck you" + $scope.sets);
+	console.log("shits" + sets);
+
+    $scope.selectedSet = $scope.sets[0];
+    $scope.ok = function() {
+	$uibModalInstance.close($scope.selectedSet);
+    };
+
+    $scope.cancel = function() {
+	$uibModalInstance.dismiss('cancel');
+    };
+}]; 
 	$scope.herro = 'herro??';
 	$scope.showModal = function() {
 	    $scope.herro = 'HERRO!!';
-	    var modal = $uibModal.open({
+		console.log("fuck you" + $scope.sets);
+	    var modalInstance = $uibModal.open({
 		templateUrl: 'setSelectorModal.html',
-		controller: 'setSelModalController',
-		resolve: function () {
-		    sets: return $scope.sets;
-		}
+		controller: setSelModalController,
+		resolve: {
+			sets: function () {
+				return $scope.sets;
+				console.log("fuck you" + $scope.sets);
+				}
+			
+			}
 	    });
 
-	    modal.result.then(function (selectedSet) {
+	    modalInstance.result.then(function (selectedSet) {
 		$scope.selectedSet = selectedSet;
 	    });
 	};
@@ -89,7 +110,9 @@ app.directive('setSelector', [function() {
   
 }]);
 
- app.controller('setSelModalController', function($scope, $uibModalInstance, sets) {
+
+
+/* angular.module('myApp').controller('setSelModalController'['$scope','$uibModalInstance'], function($scope, $uibModalInstance, sets) {
     $scope.sets = sets;
     $scope.selectedSet = $scope.sets[0];
     $scope.ok = function() {
@@ -99,7 +122,7 @@ app.directive('setSelector', [function() {
     $scope.cancel = function() {
 	$uibModalInstance.dismiss('cancel');
     };
-}); 
+});  */
 
 
 
