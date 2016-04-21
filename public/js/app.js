@@ -63,12 +63,9 @@ app.directive('setMinInfo', [function() {
 app.directive('setSelector', [function() {
 	
     var setSelController = ['$scope','$uibModal', function($scope, $uibModal){
-		
 		var setSelModalController = ['$scope','$uibModalInstance', 'sets', function($scope, $uibModalInstance, sets) {
     $scope.sets = sets;
-	console.log("fuck you" + $scope.sets);
-	console.log("shits" + sets);
-
+	
     $scope.selectedSet = $scope.sets[0];
     $scope.ok = function() {
 	$uibModalInstance.close($scope.selectedSet);
@@ -81,14 +78,13 @@ app.directive('setSelector', [function() {
 	$scope.herro = 'herro??';
 	$scope.showModal = function() {
 	    $scope.herro = 'HERRO!!';
-		console.log("fuck you" + $scope.sets);
 	    var modalInstance = $uibModal.open({
 		templateUrl: 'setSelectorModal.html',
 		controller: setSelModalController,
 		resolve: {
 			sets: function () {
 				return $scope.sets;
-				console.log("fuck you" + $scope.sets);
+				
 				}
 			
 			}
