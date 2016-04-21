@@ -1,6 +1,11 @@
-angular.module('myApp').directive('unitBigInfo', [function() {
-	return {
-	controller: unitBigIController,
+angular.module('myApp').directive('unitBigInfo', [unitBigInfoDirective]);
+
+function unitBigInfoDirective(){
+	
+	 return {
+	controller: ['$scope', '$http'],
+	controllerAs: 'unitBigIController',
+	bindToController: true,
 	restrict: 'E',
 	scope: {
 	    shortname: '='
@@ -8,21 +13,32 @@ angular.module('myApp').directive('unitBigInfo', [function() {
 	templateUrl: 'unitBigInfo.html'
     };
 	
+}
 	
-    var unitBigIController = ['$scope', function($scope){
+
+	
+    function unitBigIController ($scope, $http){
+	//console.log("inside");
+
 	$scope.unitClicked = function () {
 	    $scope.display = !$scope.display;
 	};
 	
 	$scope.loadMoreData = function (shortname) {
-	    /*$http.get(('/characters/'+ shortname)).success(function(data) {
-		$scope.moreData = data;
-	    });*/
+		//Loads more speficic data based on shortname, and makes a path to the unit gif
+	    $http.get(('/characters/'+ shortname)).success(function(data) {
+	      $scope.moreData = data;
+		  
+		  $scope.gifUnit = (''+$scope.shortname+'_'+($scope.moreData.prepromote||$scope.moreData.base_class)+'');
+		  
+	      });
+		  
+		  
 	};
-	
-	$scope.loadMoreData();
+	//TODO: move loadMoreData into a 'service' that is cacheable and is called upon display=true
+	$scope.loadMoreData($scope.shortname);
     }];
 
-
-    
+   
+  
 }]);
