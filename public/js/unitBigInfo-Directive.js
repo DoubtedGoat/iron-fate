@@ -2,7 +2,7 @@ angular.module('myApp').directive('unitBigInfo', [unitBigInfoDirective]);
 
 function unitBigInfoDirective(){
 	
-	 return {
+	return {
 	controller: ['$scope', '$http'],
 	controllerAs: 'unitBigIController',
 	bindToController: true,
@@ -14,8 +14,6 @@ function unitBigInfoDirective(){
     };
 	
 }
-	
-
 	
     function unitBigIController ($scope, $http){
 	//console.log("inside");
@@ -37,8 +35,6 @@ function unitBigInfoDirective(){
 	};
 	//TODO: move loadMoreData into a 'service' that is cacheable and is called upon display=true
 	$scope.loadMoreData($scope.shortname);
-    }];
+    };
 
-   
-  
-}]);
+

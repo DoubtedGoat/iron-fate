@@ -1,7 +1,7 @@
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ['ngAnimate','ui.bootstrap']);
 
 //add a controller to it
-app.controller('MyCtrl', function($scope, $http) {
+app.controller('MyCtrl', function($scope, $http, $uibModal) {
 
 $scope.display = false;
    //a scope function to load the data.
@@ -14,7 +14,7 @@ $scope.loadData();
 });
 
 //TODO: figure out why this cant be moved into a separate file
-app.directive('unitBigInfo', [function() {
+   app.directive('unitBigInfo', [function() {
     var unitBigIController = ['$scope', '$http', function($scope, $http){
 	//console.log("inside");
 
@@ -35,7 +35,7 @@ app.directive('unitBigInfo', [function() {
 	};
 	//TODO: move loadMoreData into a 'service' that is cacheable and is called upon display=true
 	$scope.loadMoreData($scope.shortname);
-    }];
+    }]; 
 
     return {
 	controller: unitBigIController,
@@ -46,7 +46,7 @@ app.directive('unitBigInfo', [function() {
 	templateUrl: 'unitBigInfo.html'
     };
   
-}]);
+}]);  
 
 
 app.directive('setMinInfo', [function() {
@@ -89,7 +89,7 @@ app.directive('setSelector', [function() {
   
 }]);
 
-app.controller('setSelModalController', function($scope, $uibModalInstance, sets) {
+ app.controller('setSelModalController', function($scope, $uibModalInstance, sets) {
     $scope.sets = sets;
     $scope.selectedSet = $scope.sets[0];
     $scope.ok = function() {
@@ -99,7 +99,7 @@ app.controller('setSelModalController', function($scope, $uibModalInstance, sets
     $scope.cancel = function() {
 	$uibModalInstance.dismiss('cancel');
     };
-});
+}); 
 
 
 
