@@ -19,3 +19,51 @@ bundle install
 
 
 rackup
+
+
+# Installin Shiz (on Windoze)
+Check ruby version; install everything to match
+
+Install postgres. Note directory for later
+
+Download RubyDevkit
+
+Put in documents
+
+Admin CMD, run dk.rb init
+
+run dk.rb install
+
+add Postgres bin to Path
+
+gem install pg --pre
+
+
+# Setup Postgres locally
+createuser -U postgres -P <username>
+
+<password for new user at prompt>
+
+createdb -U postgres fedb
+
+set environment DATABASE_URL to
+
+`postgres://<username>:<password>@localhost:5432/fedb`
+
+cd iron-fate/db/
+
+psql
+
+> \i schema.ddl
+
+> \i 2016_04_04_growths.ddl
+
+> \q
+
+ruby import_classes.rb
+
+ruby import_characters.rb
+
+ruby import_class_growths.rb
+
+ruby import_char_growths.rb
