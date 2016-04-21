@@ -16,6 +16,7 @@ GEM
     minitest (5.8.4)
     multi_json (1.11.2)
     pg (0.18.4)
+    pg (0.18.4-x86-mingw32)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -31,6 +32,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   byebug
@@ -38,3 +40,6 @@ DEPENDENCIES
   pg
   sass
   sinatra
+
+BUNDLED WITH
+   1.11.2
