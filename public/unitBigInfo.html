@@ -5,8 +5,8 @@
     <img ng-src="/thumbnails/{{shortname}}.png">
     <span class="header">{{moreData.name}}</span>
   </div>
-  <div ng-show="display" class="data-region">
-    <div class="body">
+  <div ng-show="display" class="container data-region">
+    <div class="col-xs-12 body">
       Name: {{moreData.name}} <img ng-src="/gifs/{{gifUnit}}.gif"></br>
       Base Class: {{moreData.base_class}} </br>
       Heart Class: {{moreData.heart_class}} </br>
@@ -19,7 +19,7 @@
       LCK: {{moreData.lck}} </br>
       DEF: {{moreData.def}} </br>
       RES: {{moreData.res}} </br>
-      <set-selector sets="moreData.partner_sets"></div>
+      <set-selector class="col-xs-3" sets="moreData.partner_sets"></div>
       Friendship sets: {{moreData.friendship_sets}}</br>
     </div>
     

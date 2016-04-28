@@ -65,7 +65,6 @@ app.directive('setSelector', [function() {
     var setSelController = ['$scope','$uibModal', function($scope, $uibModal){
 		var setSelModalController = ['$scope','$uibModalInstance', 'sets', function($scope, $uibModalInstance, sets) {
     $scope.sets = sets;
-	
     $scope.selectedSet = $scope.sets[0];
     $scope.ok = function() {
 	$uibModalInstance.close($scope.selectedSet);
