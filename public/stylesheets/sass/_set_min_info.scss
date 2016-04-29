@@ -1,0 +1,17 @@
+.set-info {
+  background-color: $primary-100;
+  margin: 10px;
+  box-shadow: 2px 2px 6px;
+
+  .header {
+    width: 100%;
+  }
+  
+  .body {
+    display: inline-block;
+  }
+  
+  img {
+    display: inline-block;
+  }
+}
