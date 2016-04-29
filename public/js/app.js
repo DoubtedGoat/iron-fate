@@ -3,18 +3,18 @@ var app = angular.module('myApp', ['ngAnimate','ui.bootstrap']);
 //add a controller to it
 app.controller('MyCtrl', function($scope, $http, $uibModal) {
 
-$scope.display = false;
-   //a scope function to load the data.
-   $scope.loadData = function () {
-      $http.get('/characters/all').success(function(data) {
-         $scope.items = data;
-      });
-   }; 
-$scope.loadData();
+    $scope.display = false;
+    //a scope function to load the data.
+    $scope.loadData = function () {
+	$http.get('/characters/all').success(function(data) {
+            $scope.items = data;
+	});
+    }; 
+    $scope.loadData();
 });
 
 //TODO: figure out why this cant be moved into a separate file
-   app.directive('unitBigInfo', [function() {
+app.directive('unitBigInfo', [function() {
     var unitBigIController = ['$scope', '$http', function($scope, $http){
 	//console.log("inside");
 
@@ -23,15 +23,15 @@ $scope.loadData();
 	};
 	
 	$scope.loadMoreData = function (shortname) {
-		//Loads more speficic data based on shortname, and makes a path to the unit gif
+	    //Loads more speficic data based on shortname, and makes a path to the unit gif
 	    $http.get(('/characters/'+ shortname)).success(function(data) {
-	      $scope.moreData = data;
-		  
-		  $scope.gifUnit = (''+$scope.shortname+'_'+($scope.moreData.prepromote||$scope.moreData.base_class)+'');
-		  
-	      });
-		  
-		  
+		$scope.moreData = data;
+		
+		$scope.gifUnit = (''+$scope.shortname+'_'+($scope.moreData.prepromote||$scope.moreData.base_class)+'');
+		
+	    });
+	    
+	    
 	};
 	//TODO: move loadMoreData into a 'service' that is cacheable and is called upon display=true
 	$scope.loadMoreData($scope.shortname);
@@ -45,7 +45,7 @@ $scope.loadData();
 	},
 	templateUrl: 'unitBigInfo.html'
     };
-  
+    
 }]);  
 
 
@@ -57,36 +57,37 @@ app.directive('setMinInfo', [function() {
 	},
 	templateUrl: 'setMinInfo.html'
     };
-  
+    
 }]);
 
 app.directive('setSelector', [function() {
-	
+    
     var setSelController = ['$scope','$uibModal', function($scope, $uibModal){
-		var setSelModalController = ['$scope','$uibModalInstance', 'sets', function($scope, $uibModalInstance, sets) {
-    $scope.sets = sets;
-    $scope.selectedSet = $scope.sets[0];
-    $scope.ok = function() {
-	$uibModalInstance.close($scope.selectedSet);
-    };
+	var setSelModalController = ['$scope','$uibModalInstance', 'sets', function($scope, $uibModalInstance, sets) {
+	    $scope.sets = sets;
+	    $scope.selectedSet = $scope.sets[$scope.sets.length-1];
+	    $scope.select = function(set) {
+                $scope.selectedSet = set;
+            }
+	    
+	    $scope.ok = function() {
+		$uibModalInstance.close($scope.selectedSet);
+	    };
 
-    $scope.cancel = function() {
-	$uibModalInstance.dismiss('cancel');
-    };
-}]; 
-	$scope.herro = 'herro??';
-	$scope.showModal = function() {
-	    $scope.herro = 'HERRO!!';
+	    $scope.cancel = function() {
+		$uibModalInstance.dismiss('cancel');
+	    };
+        }]; 
+        $scope.showModal = function() {
 	    var modalInstance = $uibModal.open({
 		templateUrl: 'setSelectorModal.html',
 		controller: setSelModalController,
 		resolve: {
-			sets: function () {
-				return $scope.sets;
-				
-				}
-			
-			}
+		    sets: function () {
+			return $scope.sets;
+		    }
+		    
+		}
 	    });
 
 	    modalInstance.result.then(function (selectedSet) {
@@ -102,22 +103,22 @@ app.directive('setSelector', [function() {
 	},
 	templateUrl: 'setSelector.html'
     };
-  
+    
 }]);
 
 
 
 /* angular.module('myApp').controller('setSelModalController'['$scope','$uibModalInstance'], function($scope, $uibModalInstance, sets) {
-    $scope.sets = sets;
-    $scope.selectedSet = $scope.sets[0];
-    $scope.ok = function() {
-	$uibModalInstance.close($scope.selectedSet);
-    };
+   $scope.sets = sets;
+   $scope.selectedSet = $scope.sets[0];
+   $scope.ok = function() {
+   $uibModalInstance.close($scope.selectedSet);
+   };
 
-    $scope.cancel = function() {
-	$uibModalInstance.dismiss('cancel');
-    };
-});  */
+   $scope.cancel = function() {
+   $uibModalInstance.dismiss('cancel');
+   };
+   });  */
 
 
 
