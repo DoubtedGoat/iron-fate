@@ -3,7 +3,9 @@
 </div>
 <div class="modal-body" class="container">
   <div ng-repeat="info in sets" class="col-xs-12 col-md-4 col-lg-3">
+    <div ng-click="select(info)">
     <set-min-info info="info"></set-min-info>
+    </div>
   </div>
 </div>
 <div class="modal-footer">
