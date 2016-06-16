@@ -23,28 +23,37 @@ rackup
 
 # Installin Shiz (on Windoze)
 Check ruby version; install everything to match
+rubyinstaller on windows version Ruby 2.3.0 http://rubyinstaller.org/downloads/
+add ruby to path during installation
 
-Install postgres. Note directory for later
 
-Download RubyDevkit
+Install postgres version doesnt matter at all according to jeremie(9.5.3). Note directory for later
+C:\Program Files\PostgreSQL\9.5
 
-Put in documents
+password is password
+default port
+no stackbuilder
 
-Admin CMD, run dk.rb init
 
-run dk.rb install
+
+Download RubyDevkit(same version as ruby), Put in documents
+Admin CMD, 
+
+ruby dk.rb init
+ruby dk.rb install
 
 add Postgres bin to Path
+C:\Program Files\PostgreSQL\9.5\bin
 
 gem install pg --pre
 
 
 # Setup Postgres locally
-createuser -U postgres -P <username>
+createuser -U postgres -P <username>(creates user for postgres)
 
 <password for new user at prompt>
 
-createdb -U postgres fedb
+createdb -U postgres fedb(creates new DB called fedb)
 
 set environment DATABASE_URL to
 
@@ -52,7 +61,7 @@ set environment DATABASE_URL to
 
 cd iron-fate/db/
 
-psql
+psql -U matt fedb
 
 > \i schema.ddl
 
@@ -67,3 +76,12 @@ ruby import_characters.rb
 ruby import_class_growths.rb
 
 ruby import_char_growths.rb
+
+gem install bundle
+bundle install
+
+RACKUP
+
+
+
+*Run rackup from iron-fate directory then hit localhost:9292
